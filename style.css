@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.umumiy{
+    background-image: url("image 1 (6).svg");
+    box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
+    height: 1024px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: hsla(240, 1%, 84%, 1);
+    padding: 15px;
+}
+
+.nimadir{
+    display: flex;
+    gap: 35px;
+    margin-left: 52px;
+}
+
+.lang{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.lightblue{
+    padding: 10px;
+}
+
+.montly{
+    padding: 10px;
+}
+
+.lightblue:hover{
+    background-color: hsla(201, 100%, 48%, 0.71);
+    box-shadow: 0px 4px 4px hsla(248, 100%, 91%, 1);
+}
+
+.bir{
+    background-color: hsla(46, 100%, 53%, 1);
+    border-radius: 50px;
+    border: 11px solid hsla(0, 3%, 34%, 1);
+    text-align: center;
+    width: 604px;
+    height: 103px;
+    text-shadow: 0px 4px 4px hsla(223, 100%, 50%, 1);
+    padding: 18px;
+    margin: 177px 200px 30px 450px;
+}
+
+.rasmlar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 410px;
+    margin-top: 132px;
+}
+
+.nom{
+    text-align: center;
+    text-shadow: 0px 4px 4px hsla(46, 100%, 50%, 1);
+    background-color: rgb(49, 47, 47);
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 36px;
+    height: 50px;
+    padding: 8px;
+}
+
+.rasm1{
+    box-shadow: 8px 7px 20px hsla(0, 0%, 100%, 1);
+}
+
+.rasm2{
+    box-shadow: 8px 7px 20px hsla(0, 0%, 100%, 1);
+}
+
+.rasm3{
+    box-shadow: 8px 7px 20px hsla(0, 0%, 100%, 1);
+}
+
+.umumiy1{
+    background-color: black;
+    height: 1042px;
+}
+
+.infor{
+    color: hsla(0, 3%, 34%, 1);
+    text-align: center;
+    font-size: 64px;
+    text-shadow: 0px 4px 4px hsla(0, 0%, 100%, 1);
+    padding-top: 61px;
+    margin-bottom: 58px;
+}
+
+.tekst{
+    color: hsla(0, 0%, 100%, 1);
+    width: 550px;
+    font-size: 27px;
+    margin-bottom: 65px;
+}
+
+.imgtext{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 87px;
+    margin-bottom: 120px;
+}
+
+.imgtext1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 278px;
+    height: 61px;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 27px;
+    background-color: hsla(0, 0%, 32%, 1);
+    box-shadow: 0px 7px 12.8px hsla(0, 0%, 100%, 1);
+    transition: .5s;
+}
+
+button:hover{
+    background-color: hsla(46, 100%, 50%, 1);
+    color: black;
+    transition: .5s;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(46, 100%, 53%, 1);
+    height: 158px;
+    padding-left: 58px;
+}
+
+.iconka{
+    display: flex;
+    gap: 26px;
+    margin-right: 35px;
+}
